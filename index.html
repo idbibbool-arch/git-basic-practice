@@ -1,3 +1,22 @@
-<h1>Hello Git</h1>
-<h1>Hello Git</h1>
-<p>This is my first Git project.</p>
+user-management/
+├── pom.xml
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── codegym/
+        │           ├── controller/
+        │           │   └── UserServlet.java
+        │           ├── dao/
+        │           │   ├── IUserDAO.java
+        │           │   └── UserDAO.java
+        │           └── model/
+        │               └── User.java
+        └── webapp/
+            ├── WEB-INF/
+            │   └── web.xml (tùy chọn nếu dùng @WebServlet)
+            └── user/
+                ├── list.jsp
+                ├── create.jsp
+                ├── edit.jsp
+                └── delete.jsp
